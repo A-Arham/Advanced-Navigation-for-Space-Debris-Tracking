@@ -2,13 +2,9 @@
 # Advanced Navigation for Space Debris Tracking
 
 ## Overview
-This project aims to improve the tracking of space debris using advanced object detection techniques. The dataset provided had issues with labeling and boundary regions which were resolved by reformatting and labeling according to the YOLO format. The final dataset was used to train a YOLOv8 model, achieving satisfactory results with high true positive values.
+This project aims to improve the tracking of space debris using advanced object detection techniques. The dataset was used to train a YOLOv8 model, achieving satisfactory results with high true positive values.
 
 ## Dataset Preparation
-
-### Corrupt Dataset Issues
-- The initial dataset had either no label regions or out-of-boundary regions, making it unsuitable for object detection tasks.
-- These issues were resolved by reformatting the dataset according to YOLO standards and creating new labels for training.
 
 ### Preprocessing & Organizing Dataset
 - Used 50% of the provided CSV file to organize a 90-10 split of train & validation datasets.
